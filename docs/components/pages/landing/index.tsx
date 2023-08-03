@@ -117,7 +117,7 @@ function SiteCards() {
       <FadeIn delay={0.1}>
         <Card
           title="repo"
-          alt="Turborepo"
+          alt="Services"
           icon={Turborepo}
           href="/repo"
           className="turborepoCardBg"
@@ -130,7 +130,7 @@ function SiteCards() {
       <FadeIn delay={0.2}>
         <Card
           title="pack"
-          alt="Turbopack"
+          alt="Laboratories"
           icon={Turbopack}
           href="/pack"
           className="turbopackCardBg"
