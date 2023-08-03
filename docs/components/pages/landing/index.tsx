@@ -147,29 +147,6 @@ function SiteCards() {
   );
 }
 
-function Teams() {
-  return (
-    <div className="mx-auto ">
-      <p className="bg-contain mb-2 md:!mb-4 text-sm font-semibold tracking-wide text-center text-[#666666] dark:text-[#888888] uppercase">
-        Trusted by teams from
-        <br className="inline md:hidden" /> around the world
-      </p>
-      <div className="z-50 grid grid-flow-col grid-rows-6 sm:grid-rows-3 md:grid-rows-2 lg:grid-rows-1">
-        <Clients
-          companyList={[
-            "Vercel",
-            "AWS",
-            "Microsoft",
-            "Adobe",
-            "Disney",
-            "Netflix",
-          ]}
-          staticWidth
-        />
-      </div>
-    </div>
-  );
-}
 
 function LandingPage() {
   return (
@@ -186,9 +163,6 @@ function LandingPage() {
           </p>
         </FadeIn>
         <SiteCards />
-        <FadeIn delay={0.3} className="z-10 py-16">
-          <Teams />
-        </FadeIn>
       </main>
     </>
   );
