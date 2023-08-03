@@ -1,4 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image';
+
+const myLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`
+}
 
 export function Turborepo() {
   return (
@@ -7,17 +11,19 @@ export function Turborepo() {
       <div className="contents dark:hidden">
         <Image
           alt="Turborepo Logo"
-          src={`https://pinecone-vercel-psnado15u-sapiens-ia.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2B31ECF9-94E7-4DB4-BA6D-B77B03710154.b0bb9161.png&w=256&q=75`}
+          src={`https://pinecone-vercel-psnado15u-sapiens-ia.vercel.app/_next/static/media/2B31ECF9-94E7-4DB4-BA6D-B77B03710154.b0bb9161.png`}
           width={120}
           height={120}
+          loader={myLoader}
         />
       </div>
       <div className="dark:contents hidden">
         <Image
           alt="Turborepo Logo"
-          src={`https://pinecone-vercel-psnado15u-sapiens-ia.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2B31ECF9-94E7-4DB4-BA6D-B77B03710154.b0bb9161.png&w=256&q=75`}
+          src={`https://pinecone-vercel-psnado15u-sapiens-ia.vercel.app/_next/static/media/2B31ECF9-94E7-4DB4-BA6D-B77B03710154.b0bb9161.png`}
           width={120}
           height={120}
+          loader={myLoader}
         />
       </div>
     </div>
