@@ -56,8 +56,8 @@ function SiteSwitcher() {
           { "hover:text-black dark:hover:text-white": site }
         )}
       >
-        <SiteSwitcherLink href="/repo" text="Solutions" isActive={site === "repo"} />
-        <SiteSwitcherLink href="/pack" text="Basilisk" isActive={site === "pack"} />
+        <SiteSwitcherLink href="/repo" text="AI" isActive={site === "repo"} />
+        <SiteSwitcherLink href="/pack" text="LAB" isActive={site === "pack"} />
       </span>
     </div>
   );
