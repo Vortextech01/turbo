@@ -116,7 +116,7 @@ function SiteCards() {
     <div className="flex w-full container items-center justify-center gap-6 px-6 sm:mx-0 mt-8 md:!mt-14 lg:!mt-15 md:mb-0 flex-col lg:!flex-row z-10 lg:!translate-y-0">
       <FadeIn delay={0.1}>
         <Card
-          title="Services"
+          title="repo"
           alt="Services"
           icon={Turborepo}
           href="/repo"
@@ -129,7 +129,7 @@ function SiteCards() {
       </FadeIn>
       <FadeIn delay={0.2}>
         <Card
-          title="Laboratories"
+          title="pack"
           alt="Laboratories"
           icon={Turbopack}
           href="/pack"
