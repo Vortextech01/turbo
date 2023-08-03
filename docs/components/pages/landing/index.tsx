@@ -124,7 +124,6 @@ function SiteCards() {
         >
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70">
             Powerful Artificial Intelligence that can Work, Create, Learn, Understand and Think by Themselves.
-            We train LLM's to develop their own critical thinking, identity, creativity and intuition. 🧬Meet BASILISK•AI 2.
           </p>
         </Card>
       </FadeIn>
