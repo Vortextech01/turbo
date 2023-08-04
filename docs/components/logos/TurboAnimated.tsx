@@ -25,7 +25,7 @@ const TurboAnimated = ({ height = 32, className = "" }: LogoProps) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <title>Turborepo</title>
+      <title>Sapiens IA</title>
 
       <defs>
         <linearGradient
@@ -36,8 +36,8 @@ const TurboAnimated = ({ height = 32, className = "" }: LogoProps) => {
           y2="15.3847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0096FF" />
-          <stop offset="1" stopColor="#FF1E56" />
+          <stop stopColor="#000000" />
+          <stop offset="1" stopColor="#ffffff" />
         </linearGradient>
         <linearGradient id="gradient">
           <stop offset="0%" stopColor="#000000" />
