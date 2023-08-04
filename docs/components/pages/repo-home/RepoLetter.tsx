@@ -12,9 +12,9 @@ export function RepoLetter() {
     <section className="relative flex flex-col items-center px-6 py-16 font-sans md:py-24 lg:py-32 gap-14">
       <FadeIn>
         <HeroText className="lg:text-[65px]">
-          Scaling your Codebase
+          Accelerating Into The Future
           <br />
-          shouldn&apos;t be so difficult
+          By Building It Ourselves
         </HeroText>
       </FadeIn>
       <div className="flex flex-col max-w-xl leading-6 md:text-lg lg:text-lg">
@@ -70,7 +70,7 @@ export function RepoLetter() {
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
               alt="Image of Jared Palmer"
-              src="/images/people/jaredpalmer.jpeg"
+              src="/images/people/70671D00-ABBC-47D7-B2EF-88193406D80C.gif"
               width={64}
               height={64}
               className="rounded-full grayscale"
