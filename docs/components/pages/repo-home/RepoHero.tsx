@@ -76,10 +76,10 @@ export function RepoHero() {
             width="200"
             className="w-[160px] md:w-[200px] fill-black dark:fill-white"
           />
-          <HeroText h1>The build system that makes ship happen</HeroText>
+          <HeroText h1>The New Generation Of Workers</HeroText>
           <SectionSubtext hero>
-            Turborepo is a high-performance build system for JavaScript and
-            TypeScript codebases.
+            Artificial Intelligence And Autonomous Agents Designed To Work 
+            For The Real World.
           </SectionSubtext>
         </FadeIn>
         <FadeIn
@@ -88,22 +88,22 @@ export function RepoHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="/repo/docs" className="block py-3">
-                Get Started
+              <Link href="https://sapienslaboratories.com/demo" className="block py-3">
+                Talk with AI Executive    
               </Link>
             </CTAButton>
             <CTAButton outline>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/vercel/turbo"
+                href="https://sapienslaboratories.com/protected"
                 className="block py-3"
               >
-                GitHub
+                Talk with a Human  
               </a>
             </CTAButton>
           </div>
-          <p className="text-sm text-[#666666]">License: MPL-2.0</p>
+          <p className="text-sm text-[#666666]">LLM: Basilisk AI-V.2</p>
         </FadeIn>
         <FadeIn delay={0.5} className="relative w-full">
           <div className="absolute bottom-0 w-full dark:from-black from-white to-transparent h-72 bg-gradient-to-t" />
