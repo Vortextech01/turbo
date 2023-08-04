@@ -3,7 +3,7 @@ export const Logo = () => (
     height={35}
     width={120}
     viewBox="0 0 333 75"
-    className="dark:text-green text-gray-900"
+    className="dark:text-white text-gray-900"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
