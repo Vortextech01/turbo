@@ -46,7 +46,7 @@ export function RepoHero() {
           <div className="w-[120px] h-[120px] z-50">
             <Image
               alt=""
-              src={`/images/docs/repo/repo-hero-logo-dark.svg`}
+              src={`/images/docs/repo/51D8B333-1C8B-43EC-B58F-1CF4C7E87315.png`}
               width={120}
               height={120}
               className="hidden dark:block"
