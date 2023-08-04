@@ -120,7 +120,7 @@ function SiteCards() {
           alt="Services"
           icon={Turborepo}
           href="/repo"
-          className="servicesCardBg"
+          className="turborepoCardBg"
         >
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70">
             Powerful Artificial Intelligence that can Work, Create, Learn, Understand and Think by Themselves.
@@ -133,7 +133,7 @@ function SiteCards() {
           alt="Laboratories"
           icon={Turbopack}
           href="/pack"
-          className="laboratoryCardBg"
+          className="turbopackCardBg"
         >
           <div className="absolute top-3 left-3">
             <CardBadge>beta</CardBadge>
