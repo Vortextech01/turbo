@@ -2,11 +2,11 @@ import classNames from "classnames";
 
 export const VercelLogo = ({ className }: { className?: string }) => (
   <svg
-    height={22}
+    height={28}
     viewBox="0 0 235 203"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className={classNames(className, "dark:fill-white fill-black")}
+    className={classNames(className, "dark:fill-gray fill-gray")}
   >
     <path d="M117.082 0L234.164 202.794H0L117.082 0Z" fill="currentColor" />
   </svg>
