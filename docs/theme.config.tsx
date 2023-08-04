@@ -20,10 +20,10 @@ const config: DocsThemeConfig = {
 
     let section = "Turbo";
     if (router?.pathname.startsWith("/pack")) {
-      section = "Turbopack";
+      section = "Services";
     }
     if (router?.pathname.startsWith("/repo")) {
-      section = "Turborepo";
+      section = "Laboratories";
     }
 
     const defaultTitle = frontMatter.overrideTitle || section;
