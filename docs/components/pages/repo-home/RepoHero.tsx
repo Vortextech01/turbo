@@ -88,8 +88,8 @@ export function RepoHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="https://sapienslaboratories.com/demo" className="block py-3">
-                Talk with AI Executive    
+              <Link href="./chat" className="block py-3">
+                Hablar con IA Executiva   
               </Link>
             </CTAButton>
             <CTAButton outline>
@@ -99,7 +99,7 @@ export function RepoHero() {
                 href="https://sapienslaboratories.com/protected"
                 className="block py-3"
               >
-                Talk with a Human  
+                Hablar con Humano 
               </a>
             </CTAButton>
           </div>
