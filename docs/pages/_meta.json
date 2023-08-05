@@ -18,7 +18,15 @@
       "typesetting": "article"
     }
   },
-  "showcase": "Showcase",
+  "showcase": {
+    "title": "Showcase",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "confirm": {
     "title": "Confirm",
     "display": "hidden"
@@ -29,6 +37,11 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "display": "hidden"
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
   }
 }
