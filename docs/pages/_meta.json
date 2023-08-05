@@ -27,6 +27,24 @@
       "toc": true
     }
   },
+   "en": {
+    "title": "En",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "confirm": {
     "title": "Confirm",
     "display": "hidden"
