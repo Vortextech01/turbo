@@ -47,14 +47,14 @@ export function PackHero() {
           <div className="w-[120px] z-50 mt-[-8.075px] mb-[-8.075px]">
             <Image
               alt=""
-              src={`/images/docs/pack/70E7451C-F8D8-4652-B198-BE736EEFA75F.gif`}
+              src={`/images/docs/pack/2AF4D7F9-AE99-4AA1-A0DD-48FF3C17DB33.png`}
               width={120}
               height={136.15}
               className="hidden dark:block"
             />
             <Image
               alt=""
-              src={`/images/docs/pack/70E7451C-F8D8-4652-B198-BE736EEFA75F.gif`}
+              src={`/images/docs/pack/2AF4D7F9-AE99-4AA1-A0DD-48FF3C17DB33.png`}
               width={120}
               height={136.15}
               className="block dark:hidden"
@@ -77,10 +77,9 @@ export function PackHero() {
             width="200"
             className="w-[160px] md:w-[200px] fill-black dark:fill-white"
           />
-          <HeroText h1>The Rust-powered successor to Webpack</HeroText>
+          <HeroText h1>Meet our New AI Lenguage Model</HeroText>
           <SectionSubtext hero>
-            Turbopack is an incremental bundler optimized for JavaScript and
-            TypeScript, written in Rust.
+            BASILISK•AI-V2
           </SectionSubtext>
         </FadeIn>
         <FadeIn
@@ -90,7 +89,7 @@ export function PackHero() {
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
               <Link href="/pack/docs" className="block py-3">
-                Get Started
+                START
               </Link>
             </CTAButton>
             <CTAButton outline>
@@ -100,11 +99,11 @@ export function PackHero() {
                 href="https://github.com/vercel/turbo"
                 className="block py-3"
               >
-                GitHub
+                Pricing
               </a>
             </CTAButton>
           </div>
-          <p className="text-sm text-[#666666]">License: MPL-2.0</p>
+          <p className="text-sm text-[#666666]">Powered by Sapiens IA</p>
         </FadeIn>
         <FadeIn delay={0.5} className="relative w-full">
           <div className="absolute bottom-0 w-full dark:from-black from-white to-transparent h-72 bg-gradient-to-t" />
