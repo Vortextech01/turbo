@@ -88,18 +88,18 @@ export function PackHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="/pack/docs" className="block py-3">
-                START
+              <Link href="https://sapienslaboratories.com/experience" className="block py-3">
+                COMENZAR🧬 
               </Link>
             </CTAButton>
             <CTAButton outline>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/vercel/turbo"
+                href="https://sapienslaboratories.com/playground"
                 className="block py-3"
               >
-                Pricing
+                PLAYGROUND🚀
               </a>
             </CTAButton>
           </div>
