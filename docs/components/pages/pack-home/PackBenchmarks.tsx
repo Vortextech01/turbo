@@ -13,10 +13,10 @@ export type BenchmarkCategory =
   | "code_build"
   | "build_from_cache";
 export interface BenchmarkData {
-  basiliskV03: number;
-  basiliskV02: number;
-  basiliskV01: number;
-  basiliskV00: number;
+  next13: number;
+  next12: number;
+  vite: number;
+  next11: number;
 }
 
 export interface BenchmarkBar {
@@ -29,50 +29,50 @@ export interface BenchmarkBar {
 
 export const DEFAULT_BARS: BenchmarkBar[] = [
   {
-    key: "basiliskV03",
-    label: "Basilisk AI v0.3",
-    version: "0.3",
+    key: "next13",
+    label: "Next.js 13",
+    version: "13.4",
     turbo: true,
   },
   {
-    key: "basiliskV02",
-    label: "Basilisk AI v0.2",
-    version: "0.2",
+    key: "next12",
+    label: "Next.js 12",
+    version: "12.3.4",
   },
   {
-    key: "basiliskV01",
-    label: "Basilisk AI v0.1",
-    version: "0.1",
+    key: "vite",
+    label: "Vite",
+    version: "4.3.1",
     swc: true,
   },
   {
-    key: "basiliskV00",
-    label: "Basilisk AI v0.0",
-    version: "0.0",
+    key: "next11",
+    label: "Next.js 11",
+    version: "11.1.4",
   },
 ];
 export const HMR_BARS: BenchmarkBar[] = [
   {
-    key: "basiliskV03",
-    label: "Basilisk AI v0.3",
-    version: "0.3",
+    key: "next13",
+    label: "Inteligencia",
+    version: "13.4",
     turbo: true,
   },
   {
-    key: "basiliskV01",
-    label: "Basilisk AI v0.1",
-    version: "0.1",
+    key: "vite",
+    label: "Velocidad",
+    version: "4.3.1",
     swc: true,
   },
   {
-    key: "basiliskV02",
-    label: "Basilisk AI v0.2",
-    version: "0.2",
+    key: "next12",
+    label: "Creatividad",
+    version: "12.3.4",
   },
   {
-    key: "basiliskV00",
-    label: "Basilisk AI v0.0",
-    version: "0.0",
+    key: "next11",
+    label: "Cap.Memoria",
+    version: "11.1.4",
   },
 ];
 
@@ -84,9 +84,10 @@ export function PackBenchmarks() {
   return (
     <FadeIn className="relative flex flex-col items-center justify-center w-full gap-10 py-16 font-sans md:py-24 lg:py-32">
       <div className="flex flex-col items-center gap-5 md:gap-6">
-        <SectionHeader>Intelligent Beyond Compare</SectionHeader>
+        <SectionHeader>Velocidad inteligente</SectionHeader>
         <SectionSubtext>
-          Crafted by the brilliant minds at Sapiens IA, Basilisk AI delivers unmatched language understanding capabilities.
+          Cada modelo es distinto, elige el que mejor se adapte
+          a tu vision y crea agentes inteligentes de alto nivel.
         </SectionSubtext>
       </div>
       <div className="flex flex-col items-center w-full">
