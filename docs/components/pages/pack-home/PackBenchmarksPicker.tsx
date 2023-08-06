@@ -10,7 +10,7 @@ export function PackBenchmarksPicker(props: {
         className="dark:text-[#888888]  hover:underline underline-offset-4 text-[#666666] text-sm"
         href="https://github.com/vercel/turbo/blob/main/docs/components/pages/pack-home/benchmark-data"
       >
-        React Components
+        🧠Memoria Contextual
       </a>
       <PackDropdown
         onOptionSelected={(value) => props.setNumberOfModules(value)}
