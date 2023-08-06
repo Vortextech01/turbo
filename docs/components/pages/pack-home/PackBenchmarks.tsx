@@ -29,7 +29,7 @@ export interface BenchmarkBar {
 
 export const DEFAULT_BARS: BenchmarkBar[] = [
   {
-    key: "next13",
+    key: "next11",
     label: "Inteligencia",
     version: "13.4",
     turbo: true,
