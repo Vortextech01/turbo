@@ -45,6 +45,15 @@
       "toc": true
     }
   },
+  "experience": {
+    "title": "Experience",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "confirm": {
     "title": "Confirm",
     "display": "hidden"
@@ -54,7 +63,7 @@
     "display": "hidden"
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "Basilisk 2",
     "display": "hidden",
     "theme": {
       "layout": "raw",
