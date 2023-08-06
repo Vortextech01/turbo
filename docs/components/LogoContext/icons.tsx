@@ -8,7 +8,7 @@ export const VercelLogo = ({ className }: { className?: string }) => (
     xmlns="http://www.w3.org/2000/svg"
     className={classNames(className, "dark:fill-green fill-blue")}
   >
-    <path d="M117.082 0L234.164 202.794H0L117.082 0Z" fill="currentColor" />
+    <path d="M117.082 0L234.164 202.794H0L117.082 0Z" fill="blue" />
   </svg>
 );
 
