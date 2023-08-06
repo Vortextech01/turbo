@@ -1,8 +1,7 @@
-const Vercel = ({ height = 20 }: { height?: number }) => (
-  <svg height={height} viewBox="0 0 283 64" fill="none">
+const Vercel = ({ height = 80 }: { height?: number }) => (
+  <svg height={height} viewBox="0 0 283 256" fill="none">
     <title>Sapiens IA</title>
-    <circle cx="50" cy="50" r="50" fill="blue" />
-    <text x="25%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="25">Sapiens IA</text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="50">🧬Sapiens IA</text>
   </svg>
 );
 
