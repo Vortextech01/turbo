@@ -68,7 +68,7 @@ export const PRODUCT_MENU_ITEMS = ({
     children: "Vercel",
     prefix: <VercelLogo className="mr-3 h-4 w-4" />,
     type: "external",
-    href: "https://vercel.com",
+    href: "https://sapienslaboratories.com",
   },
   {
     name: "next-js",
