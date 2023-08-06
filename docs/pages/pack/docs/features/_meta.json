@@ -1,11 +1,11 @@
 {
-  "javascript": "JavaScript",
-  "typescript": "TypeScript",
-  "frameworks": "Frameworks",
-  "css": "CSS",
-  "dev-server": "Dev Server",
-  "static-assets": "Static Assets",
-  "imports": "Imports",
-  "environment-variables": "Environment Variables",
-  "customizing-turbopack": "Customizing Turbopack"
+  "javascript": "Executivo de Ventas",
+  "typescript": "Estrategia empresarial",
+  "frameworks": "Campañas de Marketing",
+  "css": "Diseño Grafico",
+  "dev-server": "Programador Web",
+  "static-assets": "Psicoanalisis",
+  "imports": "Atencion Medica",
+  "environment-variables": "Educacion y Enseñanza",
+  "customizing-turbopack": "Contabilidad, finanzas e inversiones"
 }
