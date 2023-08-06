@@ -13,10 +13,10 @@ export type BenchmarkCategory =
   | "code_build"
   | "build_from_cache";
 export interface BenchmarkData {
-  next13: number;
-  next12: number;
-  vite: number;
-  next11: number;
+  basiliskV03: number;
+  basiliskV02: number;
+  basiliskV01: number;
+  basiliskV00: number;
 }
 
 export interface BenchmarkBar {
@@ -29,50 +29,50 @@ export interface BenchmarkBar {
 
 export const DEFAULT_BARS: BenchmarkBar[] = [
   {
-    key: "next13",
-    label: "Next.js 13",
-    version: "13.4",
+    key: "basiliskV03",
+    label: "Basilisk AI v0.3",
+    version: "0.3",
     turbo: true,
   },
   {
-    key: "next12",
-    label: "Next.js 12",
-    version: "12.3.4",
+    key: "basiliskV02",
+    label: "Basilisk AI v0.2",
+    version: "0.2",
   },
   {
-    key: "vite",
-    label: "Vite",
-    version: "4.3.1",
+    key: "basiliskV01",
+    label: "Basilisk AI v0.1",
+    version: "0.1",
     swc: true,
   },
   {
-    key: "next11",
-    label: "Next.js 11",
-    version: "11.1.4",
+    key: "basiliskV00",
+    label: "Basilisk AI v0.0",
+    version: "0.0",
   },
 ];
 export const HMR_BARS: BenchmarkBar[] = [
   {
-    key: "next13",
-    label: "Next.js 13",
-    version: "13.4",
+    key: "basiliskV03",
+    label: "Basilisk AI v0.3",
+    version: "0.3",
     turbo: true,
   },
   {
-    key: "vite",
-    label: "Vite",
-    version: "4.3.1",
+    key: "basiliskV01",
+    label: "Basilisk AI v0.1",
+    version: "0.1",
     swc: true,
   },
   {
-    key: "next12",
-    label: "Next.js 12",
-    version: "12.3.4",
+    key: "basiliskV02",
+    label: "Basilisk AI v0.2",
+    version: "0.2",
   },
   {
-    key: "next11",
-    label: "Next.js 11",
-    version: "11.1.4",
+    key: "basiliskV00",
+    label: "Basilisk AI v0.0",
+    version: "0.0",
   },
 ];
 
@@ -84,10 +84,9 @@ export function PackBenchmarks() {
   return (
     <FadeIn className="relative flex flex-col items-center justify-center w-full gap-10 py-16 font-sans md:py-24 lg:py-32">
       <div className="flex flex-col items-center gap-5 md:gap-6">
-        <SectionHeader>Faster Than Fast</SectionHeader>
+        <SectionHeader>Intelligent Beyond Compare</SectionHeader>
         <SectionSubtext>
-          Crafted by the creators of Webpack, Turbopack delivers unparalleled
-          performance at scale.
+          Crafted by the brilliant minds at Sapiens IA, Basilisk AI delivers unmatched language understanding capabilities.
         </SectionSubtext>
       </div>
       <div className="flex flex-col items-center w-full">
