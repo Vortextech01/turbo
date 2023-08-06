@@ -4,7 +4,7 @@ export const VercelLogo = ({ className }: { className?: string }) => (
   <svg
     height={15}
     viewBox="0 0 235 203"
-    fill="none"
+    fill="blue"
     xmlns="http://www.w3.org/2000/svg"
     className={classNames(className, "dark:fill-green fill-blue")}
   >
