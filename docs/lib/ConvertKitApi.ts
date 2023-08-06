@@ -44,7 +44,7 @@ export interface Subscriber {
   id: number;
   first_name: string;
   email_address: string;
-  state: active; // maybe 'active' | 'inactive'
+  state: string; // maybe 'active' | 'inactive'
   created_at: string;
   fields: Record<string, any>;
 }
