@@ -10,6 +10,10 @@
   },
   "docs": {
     "title": "Docs",
-    "display": "hidden"
-  }
-}
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
