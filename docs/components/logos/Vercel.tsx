@@ -1,4 +1,4 @@
-const Vercel = ({ height = 20 }: { height?: number }) => (
+const Vercel = ({ height = 10 }: { height?: number }) => (
   <svg height={height} viewBox="0 0 283 64" fill="none">
     <title>Vercel</title>
     <path
