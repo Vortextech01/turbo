@@ -100,21 +100,20 @@ function MenuItem({
 
 export function LogoContext() {
   const [open, setOpen] = useState(false);
-  const [modalOpen, setModalOpen] = useState(false);
   const site = useTurboSite();
   const menu = useRef(null);
   const { theme = "dark" } = useTheme();
 
   const toggleMenu = (e: MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    if (e.type === "contextmenu") {
-      setOpen((prev) => !prev);
-    } else {
-      setOpen(false);
-      setModalOpen(true);
-      document.body.classList.add('modal-open');
-    }
-  };
+  e.preventDefault();
+  if (e.type === "contextmenu") {
+    setOpen((prev) => !prev);
+  } else {
+    setOpen(false);
+    window.open(`/chat`, "_self"); // changed "_blank" to "_self"
+  }
+};
+
 
   const onClickOutside: EventListener = useCallback(
     (e) => {
@@ -131,11 +130,6 @@ export function LogoContext() {
       document.removeEventListener("click", onClickOutside, true);
     };
   }, [onClickOutside]);
-
-  const closeModal = () => {
-    setModalOpen(false);
-    document.body.classList.remove('modal-open');
-  }
 
   return (
     <div className="block relative">
@@ -168,14 +162,6 @@ export function LogoContext() {
                 {item.children}
               </MenuItem>
             ))}
-          </div>
-        </div>
-      )}
-      {modalOpen && (
-        <div className="absolute z-50 w-full h-full bg-white flex items-center justify-center">
-          <div className="relative w-3/4 h-3/4">
-            <iframe src="https://sapienslaboratories.com" title="Sapiens Website" className="w-full h-full"></iframe>
-            <button onClick={closeModal} className="absolute top-0 right-0 m-2">Close</button>
           </div>
         </div>
       )}
