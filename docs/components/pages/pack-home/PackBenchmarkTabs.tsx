@@ -14,13 +14,13 @@ const TABS: {
     id: "cold",
     title: "Basilisk V.1",
     soon: false,
-    tooltip: "First run",
+    tooltip: "Memoria (flexible)",
   },
   {
     id: "file_change",
     title: "Basilisk V.2",
     soon: false,
-    tooltip: "Hot Reload (HMR)",
+    tooltip: "Entrenamiento (Avanzado)",
   },
   {
     id: "code_build",
