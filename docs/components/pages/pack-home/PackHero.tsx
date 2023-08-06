@@ -88,8 +88,8 @@ export function PackHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="https://sapienslaboratories.com/experience" className="block py-3">
-                COMENZAR🧬 
+              <Link href="./experience" className="block py-3">
+                EXPERIENCIA INTERACTIVA🧬 
               </Link>
             </CTAButton>
             <CTAButton outline>
