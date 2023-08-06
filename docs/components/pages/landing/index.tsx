@@ -7,6 +7,7 @@ import { Clients } from "../../clients/Clients";
 import { Marquee } from "../../clients/Marquee";
 import { TurboheroBackground } from "./TurboHeroBackground";
 import { Turborepo } from "./Turborepo";
+import { Playground } from "./Playground";
 import { Turbopack } from "./Turbopack";
 import { FadeIn } from "../home-shared/FadeIn";
 import { LandingPageGlobalStyles } from "../home-shared/GlobalStyles";
@@ -140,6 +141,22 @@ function SiteCards() {
           </div>
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70 ">
             Introducing our AI Model: BASILISK AI
+          </p>
+        </Card>
+      </FadeIn>
+      <FadeIn delay={0.2}>
+        <Card
+          title="Playground"
+          alt="playground"
+          icon={Playground}
+          href="/experience"
+          className="turbopackCardBg"
+        >
+          <div className="absolute top-3 left-3">
+            <CardBadge>beta</CardBadge>
+          </div>
+          <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70 ">
+            Introducing our Playground
           </p>
         </Card>
       </FadeIn>
