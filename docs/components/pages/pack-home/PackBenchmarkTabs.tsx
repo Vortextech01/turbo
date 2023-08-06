@@ -12,25 +12,25 @@ const TABS: {
 }[] = [
   {
     id: "cold",
-    title: "Cold Start",
+    title: "Basilisk V.1",
     soon: false,
     tooltip: "First run",
   },
   {
     id: "file_change",
-    title: "File Change",
+    title: "Basilisk V.2",
     soon: false,
     tooltip: "Hot Reload (HMR)",
   },
   {
     id: "code_build",
-    title: "Code Build",
+    title: "VOID",
     soon: true,
     tooltip: "First Build",
   },
   {
     id: "build_from_cache",
-    title: "Build from Cache",
+    title: "Vortex",
     soon: true,
     tooltip: "Second Build",
   },
