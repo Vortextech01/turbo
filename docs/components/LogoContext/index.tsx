@@ -110,7 +110,7 @@ export function LogoContext() {
       setOpen((prev) => !prev);
     } else {
       setOpen(false);
-      window.open(`https://vercel.com`, "_blank");
+      window.open(`https://sapienslaboratories.com`, "_blank");
     }
   };
 
