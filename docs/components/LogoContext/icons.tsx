@@ -1,7 +1,7 @@
 import classNames from "classnames";
 
 export const VercelLogo = ({ className }: { className?: string }) => (
-  <div className={classNames(className, "dark:text-green text-blue text-3xl")}>
+  <div className={classNames(className, "dark:text-green text-blue text-2xl")}>
     💬
   </div>
 );
