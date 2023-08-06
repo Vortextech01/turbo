@@ -1,15 +1,9 @@
 import classNames from "classnames";
 
 export const VercelLogo = ({ className }: { className?: string }) => (
-  <svg
-    height={15}
-    viewBox="0 0 235 203"
-    fill="blue"
-    xmlns="http://www.w3.org/2000/svg"
-    className={classNames(className, "dark:fill-green fill-blue")}
-  >
-    <path d="M117.082 0L234.164 202.794H0L117.082 0Z" fill="blue" />
-  </svg>
+  <div className={classNames(className, "dark:text-green text-blue text-3xl")}>
+    💬
+  </div>
 );
 
 export const TurborepoLogo = ({ className }: { className?: string }) => (
