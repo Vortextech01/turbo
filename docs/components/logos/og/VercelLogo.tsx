@@ -1,5 +1,5 @@
 const VercelLogo = ({
-  fill = "none",
+  fill = "blue",
   height = 20,
 }: {
   fill?: string;
