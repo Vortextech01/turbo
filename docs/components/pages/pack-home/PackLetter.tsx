@@ -12,7 +12,7 @@ export function PackLetter() {
     <section className="relative flex flex-col items-center px-6 py-16 font-sans md:py-24 lg:py-32 gap-14">
       <FadeIn>
         <HeroText>
-          Basilisk AI
+          Basilisk AI:
           <br />
           Innovación de Sapiens IA
         </HeroText>
@@ -65,8 +65,8 @@ export function PackLetter() {
         >
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
-              alt="Image of Tobias Koopers"
-              src="/images/people/tobiaskoppers.jpg"
+              alt="Image of Basilisk"
+              src="/images/people/EDE89C1A-BA0B-4483-96D0-B4177CA8F6BE.gif"
               width={64}
               height={64}
               className="rounded-full"
@@ -90,8 +90,8 @@ export function PackLetter() {
               className="hidden -mb-3 -ml-3 dark:block"
             />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
-              <p className="font-bold">Basilisk AI 2</p>
-              <p>Powered by Sapiens IA 2</p>
+              <p className="font-bold">Basilisk AI V.2</p>
+              <p>Powered by Sapiens IA</p>
             </div>
           </div>
         </FadeIn>
@@ -99,7 +99,7 @@ export function PackLetter() {
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
         <div className="max-w-[180px] w-full">
           <CTAButton>
-            <Link href="/pack/docs" className="block py-3 font-sans">
+            <Link href="./chat" className="block py-3 font-sans">
               Comienza a construir
             </Link>
           </CTAButton>
