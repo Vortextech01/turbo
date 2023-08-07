@@ -7,7 +7,7 @@ function Github() {
       target="_blank"
       rel="noreferrer"
     >
-      <img src="https://images.payhip.com/o_1h181504nprl12c619ve1dqkeit.gif" alt="Github icon" />
+      🚀 {/* Emoji example */}
     </a>
   );
 }
