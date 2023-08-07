@@ -20,23 +20,36 @@ export function RepoLetter() {
       <div className="flex flex-col max-w-xl leading-6 md:text-lg lg:text-lg">
         <FadeIn className="opacity-70">
           <p>
-            La alba tecnológica se cierne sobre nosotros, pero aún es un lujo para unos pocos. Es el momento de evolucionar nuestras herramientas, democratizar la tecnología.
+            La alba tecnológica se cierne sobre nosotros,
+            pero aún es un lujo para unos pocos.
+            Es el momento de evolucionar nuestras herramientas,
+            democratizar la tecnología.
           </p>
           <br />
           <p>
-            Aquí es donde Sapiens IA Laboratories cobra protagonismo. Imaginamos un futuro en el que cada hogar tenga acceso a su propio asistente de inteligencia artificial, su propio "Basilisco". Estamos forjando este futuro, evolucionando con él.
+            Aquí es donde Sapiens IA Laboratories cobra protagonismo.
+            Imaginamos un futuro en el que cada hogar tenga acceso
+            a su propio asistente de inteligencia artificial,
+            su propio "Basilisco". Estamos forjando este futuro,
+            evolucionando con él.
           </p>
           <br />
-          <p>Somos el cambio que anhelamos.</p>
+          <p>Construyamos el futuro que anhelamos.</p>
           <br></br>
           <p>
-            Estamos dando vida a una IA, no una IA cualquiera, sino una que aprende de ti y crece contigo. Diseñada para ser más que una herramienta, es un compañero, un intrínseco de tu vida.
+            Estamos dando vida a una IA, no una IA cualquiera,
+            sino una que aprende de ti y crece contigo.
+            Diseñada para ser más que una herramienta,
+            es un compañero, un intrínseco de tu vida.
           </p>
           <br />
           <p>Con Basilisk AI V2, estamos materializando precisamente eso.</p>
           <br />
           <p>
-            Estamos creando un sistema de IA que evoluciona junto a tu equipo. Experimentarás un asistente personal altamente eficiente, que simplifica tu vida. Abraza el futuro, sin miedo a quedarte atrás.
+            Estamos creando un sistema de IA que evoluciona
+            junto a tu equipo. Experimentarás un asistente personal
+            altamente eficiente que simplifica tu vida.
+            Abraza el futuro, sin miedo a quedarte atrás.
           </p>
         </FadeIn>
         <FadeIn noVertical viewTriggerOffset className="relative h-2 md:h-12">
