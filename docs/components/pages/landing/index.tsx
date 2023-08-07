@@ -123,7 +123,7 @@ function SiteCards() {
           className="turborepoCardBg"
         >
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70">
-            Powerful Artificial Intelligence that can Work, Create, Learn, Understand and Think by Themselves.
+            Inteligencia Artificial Revolucionaria Capaz de Trabajar, Crear, Aprender, Comprender y Pensar Autónomamente.
           </p>
         </Card>
       </FadeIn>
@@ -136,10 +136,10 @@ function SiteCards() {
           className="turbopackCardBg"
         >
           <div className="absolute top-3 left-3">
-            <CardBadge>beta</CardBadge>
+            <CardBadge>V.2</CardBadge>
           </div>
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70 ">
-            Introducing our AI Model: BASILISK AI
+            Conoce nuestro modelo de lenguaje: BASILISK AI
           </p>
         </Card>
       </FadeIn>
@@ -159,7 +159,7 @@ function LandingPage() {
             Sapiens🧬IA Laboratories
           </h1>
           <p className="mx-6 text-xl max-h-[112px] md:max-h-[96px] w-[315px] md:w-[660px] md:text-2xl font-space-grotesk text-center text-[#666666] dark:text-[#888888]">
-            Building The New Generation Of Workers With Real Intelligence.
+            Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
         </FadeIn>
         <SiteCards />
