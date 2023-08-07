@@ -12,88 +12,50 @@ export function RepoLetter() {
     <section className="relative flex flex-col items-center px-6 py-16 font-sans md:py-24 lg:py-32 gap-14">
       <FadeIn>
         <HeroText className="lg:text-[65px]">
-          Accelerating Into The Future
-          <br />
-          By Building It Ourselves
+          Innovando el Futuro <br /> Con Inteligencia A Tu Control
         </HeroText>
       </FadeIn>
+      <iframe className="video" src="https://www.youtube.com/embed/roKsb9YNqV8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+      </iframe>
       <div className="flex flex-col max-w-xl leading-6 md:text-lg lg:text-lg">
         <FadeIn className="opacity-70">
           <p>
-            The bigger your project grows, the slower it gets. Tasks like
-            linting, testing, and building begin to take enormous amounts of
-            time.
+            La alba tecnológica se cierne sobre nosotros, pero aún es un lujo para unos pocos. Es el momento de evolucionar nuestras herramientas, democratizar la tecnología.
           </p>
           <br />
           <p>
-            If you&apos;re serving multiple applications, you might reach for a
-            monorepo. They&apos;re incredible for productivity, especially on
-            the frontend, but the tooling can be a nightmare. There&apos;s a lot
-            of stuff to do (and things to mess up). Nothing &ldquo;just
-            works.&rdquo; It&apos;s become completely normal to waste entire
-            days or weeks on plumbing—tweaking configs, writing one-off scripts,
-            and stitching stuff together.
+            Aquí es donde Sapiens IA Laboratories cobra protagonismo. Imaginamos un futuro en el que cada hogar tenga acceso a su propio asistente de inteligencia artificial, su propio "Basilisco". Estamos forjando este futuro, evolucionando con él.
           </p>
           <br />
-          <p>We need something else.</p>
+          <p>Somos el cambio que anhelamos.</p>
           <br></br>
           <p>
-            A fresh take on the whole setup. Designed to glue everything
-            together. A toolchain that works for you and not against you. With
-            sensible defaults, but even better escape hatches. Built with the
-            same techniques used by the big guys, but in a way that doesn&apos;t
-            require PhD to learn or a staff to maintain.
+            Estamos dando vida a una IA, no una IA cualquiera, sino una que aprende de ti y crece contigo. Diseñada para ser más que una herramienta, es un compañero, un intrínseco de tu vida.
           </p>
           <br />
-          <p>With Turborepo, we&apos;re doing just that.</p>
+          <p>Con Basilisk AI V2, estamos materializando precisamente eso.</p>
           <br />
           <p>
-            We&apos;re building a build system that can keep up with your team.
-            You&apos;ll see your CI get faster, duplicated work get cut, and
-            your NPM scripts get simpler. You&apos;ll get a world-class
-            development environment, without the maintenance burden.
+            Estamos creando un sistema de IA que evoluciona junto a tu equipo. Experimentarás un asistente personal altamente eficiente, que simplifica tu vida. Abraza el futuro, sin miedo a quedarte atrás.
           </p>
         </FadeIn>
         <FadeIn noVertical viewTriggerOffset className="relative h-2 md:h-12">
-          <span
-            className={cn(
-              "w-full h-[1px] -bottom-8 md:-bottom-4 lg:-bottom-4 absolute",
-              gradients.letterLine
-            )}
+          <span className={cn(
+            "w-full h-[1px] -bottom-8 md:-bottom-4 lg:-bottom-4 absolute",
+            gradients.letterLine
+          )}
           />
         </FadeIn>
-        <FadeIn
-          viewTriggerOffset
-          noVertical
-          className="flex items-end justify-center gap-3  md:self-start md:-ml-4 lg:self-start lg:-ml-4 min-w-[300px]"
-        >
+        <FadeIn viewTriggerOffset noVertical className="flex items-end justify-center gap-3 md:self-start md:-ml-4 lg:self-start lg:-ml-4 min-w-[300px]">
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
-            <Image
-              alt="Image of Jared Palmer"
-              src="/images/people/70671D00-ABBC-47D7-B2EF-88193406D80C.gif"
-              width={64}
-              height={64}
-              className="rounded-full grayscale"
-            />
+            <Image alt="Imagen de Carlos Davila" src="/images/people/70671D00-ABBC-47D7-B2EF-88193406D80C.gif" width={64} height={64} className="rounded-full grayscale" />
           </div>
           <div className="flex flex-col">
-            <Image
-              alt="Jared Palmer's hand written signature"
-              src="/images/docs/repo/jared-signature-light.svg"
-              width={190}
-              height={90}
-              className="block mt-3 mb-4 ml-3 dark:hidden"
-            />
-            <Image
-              alt="Jared Palmer's hand written signature"
-              src="/images/docs/repo/jared-signature-dark.svg"
-              width={209}
-              height={116}
-              className="hidden -mt-2 dark:block"
-            />
+            <Image alt="Firma manuscrita de Carlos Davila" src="/images/docs/repo/jared-signature-light.svg" width={190} height={90} className="block mt-3 mb-4 ml-3 dark:hidden" />
+            <Image alt="Firma manuscrita de Carlos Davila" src="/images/docs/repo/jared-signature-dark.svg" width={209} height={116} className="hidden -mt-2 dark:block" />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
-              <p className="font-bold">Jared Palmer</p>
-              <p>Founder of Turborepo</p>
+              <p className="font-bold">Carlos Davila</p>
+              <p>CEO de Sapiens IA Laboratories</p>
             </div>
           </div>
         </FadeIn>
@@ -102,16 +64,11 @@ export function RepoLetter() {
         <div className="max-w-[180px] w-full">
           <CTAButton>
             <Link href="/repo/docs" className="block py-3 font-sans">
-              Start Building
+              Comienza a Construir
             </Link>
           </CTAButton>
         </div>
-        <Gradient
-          width={1200}
-          height={300}
-          className="bottom-[-200px] -z-10 opacity-20"
-          conic
-        />
+        <Gradient width={1200} height={300} className="bottom-[-200px] -z-10 opacity-20" conic />
       </FadeIn>
     </section>
   );
