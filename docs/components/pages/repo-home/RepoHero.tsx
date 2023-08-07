@@ -76,7 +76,7 @@ export function RepoHero() {
             width="200"
             className="w-[160px] md:w-[200px] fill-black dark:fill-white"
           />
-          <HeroText h1>The New Generation Of Workers</HeroText>
+          <HeroText h1>La Nueva Generacion De Trabajadores</HeroText>
           <SectionSubtext hero>
             Inteligencias Artificiales y Autonomous Agents diseñados para el 
             trabajo del mundo REAL.
