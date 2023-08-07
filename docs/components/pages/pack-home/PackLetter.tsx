@@ -32,8 +32,8 @@ export function PackLetter() {
             En Sapiens IA Laboratories, nos enfocamos en formar inteligencias artificiales que,
             más allá de recurrir a técnicas tradicionales como el condicionamiento de tokens o
             el descenso de gradiente, posean su propio entendimiento y pensamiento crítico.
-            Por ello, hemos diseñado una teoría psicológica orientada a los LLM's que nos permite
-            infundir en nuestras IA's personalidad, identidad y propósito.
+            Por ello, hemos diseñado una teoría psicológica orientada a los LLMs que nos permite
+            infundir en nuestras IAs personalidad, identidad y propósito.
           </p>
           <br />
           <p>
