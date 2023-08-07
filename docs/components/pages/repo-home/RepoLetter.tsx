@@ -15,8 +15,6 @@ export function RepoLetter() {
           Innovando el Futuro <br /> Con Inteligencia A Tu Control
         </HeroText>
       </FadeIn>
-      <iframe className="video" src="https://www.youtube.com/embed/roKsb9YNqV8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-      </iframe>
       <div className="flex flex-col max-w-xl leading-6 md:text-lg lg:text-lg">
         <FadeIn className="opacity-70">
           <p>
