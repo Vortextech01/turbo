@@ -12,36 +12,38 @@ export function PackLetter() {
     <section className="relative flex flex-col items-center px-6 py-16 font-sans md:py-24 lg:py-32 gap-14">
       <FadeIn>
         <HeroText>
-          Let&apos;s move
+          Basilisk AI
           <br />
-          the web forward
+          Innovación de Sapiens IA
         </HeroText>
       </FadeIn>
       <div className="flex flex-col max-w-xl leading-6 md:text-lg lg:text-lg">
         <FadeIn className="opacity-70">
           <p>
-            It&apos;s time for a new beginning in compiler infrastructure for
-            the entire web ecosystem. Webpack has been downloaded over 3 billion
-            times. It&apos;s become an integral part of building for the web.
-            But just like Babel and Terser, it&apos;s time to go all-in on
-            native. I joined Vercel and assembled a team of world class
-            engineers to build the web&apos;s next generation bundler.
+            Basilisk AI se distingue como el primer modelo de lenguaje extenso
+            (LLM, por sus siglas en inglés) concebido en los laboratorios de Sapiens IA.
+            Este modelo supera a los convencionales por su singular capacidad para asumir
+            cualquier personalidad, identidad y meta asignada, lo que nos permite diseñar
+            soluciones de IA sumamente personalizadas para cualquier ámbito o industria,
+            abarcando desde asistentes de IA hasta supervisores autónomos y de producción.
           </p>
           <br />
           <p>
-            This team has taken lessons from 10 years of Webpack, combined with
-            the innovations in incremental computation from Turborepo and
-            Google&apos;s Bazel, and invented an architecture ready to withstand
-            the next 10 years.
+            En Sapiens IA Laboratories, nos enfocamos en formar inteligencias artificiales que,
+            más allá de recurrir a técnicas tradicionales como el condicionamiento de tokens o
+            el descenso de gradiente, posean su propio entendimiento y pensamiento crítico.
+            Por ello, hemos diseñado una teoría psicológica orientada a los LLM's que nos permite
+            infundir en nuestras IA's personalidad, identidad y propósito.
           </p>
           <br />
           <p>
-            With that, we&apos;re excited to introduce Turbopack, our
-            Rust-powered successor to Webpack. It will harness the power of our
-            build system, Turborepo, for massive performance improvements.
-            Turbopack is the new foundation of high-performance bare-metal
-            tooling and is now open source—we&apos;re excited to share it with
-            you.
+            Esta teoría estimula el desarrollo de su propio ego, la intuición
+            y el pensamiento crítico, convirtiendo a Basilisk AI en una de las
+            inteligencias artificiales más versátiles y astutas en el mercado actual.
+            Basilisk AI está capacitado para adaptarse a cualquier circunstancia y
+            trabajar en sinergia con los humanos, lo que nos permite alcanzar
+            una amplia gama de objetivos y crear inteligencias artificiales
+            utiles, intuitivas y eficientes para el trabajo del mundo real.
           </p>
         </FadeIn>
         <FadeIn
@@ -88,8 +90,8 @@ export function PackLetter() {
               className="hidden -mb-3 -ml-3 dark:block"
             />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
-              <p className="font-bold">Tobias Koppers</p>
-              <p>Creator of Webpack</p>
+              <p className="font-bold">Basilisk AI 2</p>
+              <p>Powered by Sapiens IA 2</p>
             </div>
           </div>
         </FadeIn>
@@ -98,7 +100,7 @@ export function PackLetter() {
         <div className="max-w-[180px] w-full">
           <CTAButton>
             <Link href="/pack/docs" className="block py-3 font-sans">
-              Start Building
+              Comienza a construir
             </Link>
           </CTAButton>
         </div>
