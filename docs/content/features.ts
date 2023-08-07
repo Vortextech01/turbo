@@ -143,8 +143,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Soporte de IA de Última Generación",
     description: `En Sapiens IA, estamos comprometidos a estar a la vanguardia de la tecnología de IA. Ofrecemos soporte de IA de última generación, garantizando que siempre estés un paso adelante.`,
-    iconDark: NextJSIconDark,
-    iconLight: NextJSIconLight,
+    iconDark: CpuIconDark,
+    iconLight: CpuIconLight,
     page: "all",
   },
 ];
