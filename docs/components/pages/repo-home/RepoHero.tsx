@@ -78,8 +78,8 @@ export function RepoHero() {
           />
           <HeroText h1>The New Generation Of Workers</HeroText>
           <SectionSubtext hero>
-            Artificial Intelligence And Autonomous Agents Designed To Work 
-            For The Real World.
+            Inteligencias Artificiales y Autonomous Agents diseñados para el 
+            trabajo del mundo REAL.
           </SectionSubtext>
         </FadeIn>
         <FadeIn
