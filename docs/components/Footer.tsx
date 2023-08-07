@@ -55,7 +55,7 @@ const navigation = {
     },
   ],
   company: (site: TurboSite) => [
-    { name: "Vercel", href: "https://vercel.com" },
+    { name: "SapiensIA", href: "https://sapienslaboratories.com" },
     {
       name: "Sapiens Academia",
       href: "https://www.elsoldecuernavaca.com.mx/analisis/red-de-oscs-morelos-escuela-que-revoluciona-la-educacion.-sapiens-academia-9355456.html/amp",
@@ -84,7 +84,7 @@ export function FooterContent() {
           <div className="grid grid-cols-1 gap-8 xl:col-span-2">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 md:gap-8">
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Resources</FooterHeader>
+                <FooterHeader>Links</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.general.map((item) => (
                     <li key={item.name}>
@@ -94,7 +94,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Turborepo</FooterHeader>
+                <FooterHeader>Demos</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.repo.map((item) => (
                     <li key={item.name}>
@@ -104,7 +104,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Turbopack</FooterHeader>
+                <FooterHeader>Proyectos</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.pack.map((item) => (
                     <li key={item.name}>
@@ -124,7 +124,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Legal</FooterHeader>
+                <FooterHeader>Extra</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
@@ -148,7 +148,7 @@ export function FooterContent() {
           <div className="mt-12 xl:!mt-0">
             <FooterHeader>Subscribe to our newsletter</FooterHeader>
             <p className="mt-4 text-sm text-gray-600 dark:text-[#888888]">
-              Subscribe to the Turbo newsletter and stay updated on new releases
+              Subscribe to the Sapiens IA newsletter and stay updated on new releases
               and features, guides, and case studies.
             </p>
             <SubmitForm />
@@ -162,12 +162,12 @@ export function FooterContent() {
               target="_blank"
               rel="noopener noreferrer"
               title="vercel.com homepage"
-              href="https://vercel.com?utm_source=turbo.build&utm_medium=referral&utm_campaign=footer-logoLink"
+              href="https://sapienslaboratories.com/public"
             >
               <VercelLogo />
             </a>
             <p className="mt-4 text-xs text-gray-500 dark:text-[#888888]">
-              &copy; {new Date().getFullYear()} Vercel, Inc. All rights
+              &copy; {new Date().getFullYear()} Sapiens IA Laboratories, Inc. All rights
               reserved.
             </p>
           </div>
