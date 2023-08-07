@@ -29,48 +29,46 @@ function FooterHeader({ children }: { children: ReactNode }) {
 
 const navigation = {
   general: [
-    { name: "Blog", href: "/blog" },
-    { name: "Releases", href: "https://github.com/vercel/turbo/releases" },
+    { name: "Menu", href: "/" },
+    { name: "AI Chat", href: "/chat" },
   ],
   repo: [
-    { name: "Documentation", href: "/repo/docs" },
+    { name: "Interactive Experience", href: "https://sapienslaboratories.com/experience" },
     {
-      name: "API Reference",
-      href: "/repo/docs/reference/command-line-reference",
+      name: "Playground",
+      href: "https://sapienslaboratories.com/playground",
     },
-    { name: "FAQ", href: "/repo/docs/faq" },
+    { name: "HOME", href: "https://sapienslaboratories.com/public" },
   ],
   pack: [
-    { name: "Documentation", href: "/pack/docs" },
-    { name: "Features", href: "/pack/docs/features" },
+    { name: "Alchemyth", href: "https://sapienslaboratories.com/profile" },
+    { name: "Youtube", href: "https://m.youtube.com/@sapiensia7494" },
   ],
   support: [
     {
-      name: "GitHub",
-      href: "https://github.com/vercel/turbo",
+      name: "Whatsapp",
+      href: "https://wa.me/message/VH3VN2CKQR7ZF1",
     },
     {
-      name: "Discord",
-      href: "https://turbo.build/discord",
+      name: "Servicios",
+      href: "https://sapienslaboratories.com/protected",
     },
   ],
   company: (site: TurboSite) => [
     { name: "Vercel", href: "https://vercel.com" },
     {
-      name: "Open Source Software",
-      href: "https://vercel.com/oss?utm_source=turbo.build&utm_medium=referral&utm_campaign=footer-ossLink",
+      name: "Sapiens Academia",
+      href: "https://www.elsoldecuernavaca.com.mx/analisis/red-de-oscs-morelos-escuela-que-revoluciona-la-educacion.-sapiens-academia-9355456.html/amp",
     },
     {
-      name: "Contact Sales",
-      href: `https://vercel.com/${
-        site === "repo" ? "solutions/turborepo" : "contact/sales"
-      }?utm_source=turbo.build&utm_medium=referral&utm_campaign=footer-enterpriseLink`,
+      name: "Contactanos",
+      href: "https://sapienslaboratories.com/demo",
     },
-    { name: "Twitter", href: "https://twitter.com/vercel" },
+    { name: "Twitter", href: "https://twitter.com/carlosdavila007" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" },
+    { name: "Example", href: "/privacy" },
+    { name: "Website", href: "/" },
   ],
 };
 
