@@ -30,7 +30,7 @@ export function RepoLetter() {
             Aquí es donde Sapiens IA Laboratories cobra protagonismo.
             Imaginamos un futuro en el que cada hogar tenga acceso
             a su propio asistente de inteligencia artificial,
-            su propio "Basilisco". Estamos forjando este futuro,
+            su propio Basilisco, estamos forjando este futuro,
             evolucionando con él.
           </p>
           <br />
