@@ -45,17 +45,17 @@ impl<'a> CacheReader<'a> {
     }
 
     pub fn get_sha(mut self) -> Result<Vec<u8>, CacheError> {
-        let mut context = Sha512::new();
+        let mut hasher = Sha512::new();
         let mut buffer = [0; 8192];
         loop {
             let n = self.reader.read(&mut buffer)?;
             if n == 0 {
                 break;
             }
-            context.update(&buffer[..n]);
+            hasher.update(&buffer[..n]);
         }
 
-        Ok(context.finalize().to_vec())
+        Ok(hasher.finalize().to_vec())
     }
 
     pub fn restore(
@@ -341,7 +341,7 @@ mod tests {
         for (tar_bytes, is_compressed) in
             [(&uncompressed_tar[..], false), (&compressed_tar[..], true)]
         {
-            let mut cache_reader = CacheReader::from_reader(&tar_bytes[..], is_compressed)?;
+            let mut cache_reader = CacheReader::from_reader(tar_bytes, is_compressed)?;
             let output_dir = tempdir()?;
             let output_dir_path = output_dir.path().to_string_lossy();
             let anchor = AbsoluteSystemPath::new(&output_dir_path)?;
@@ -364,7 +364,7 @@ mod tests {
         for (tar_bytes, is_compressed) in
             [(&uncompressed_tar[..], false), (&compressed_tar[..], true)]
         {
-            let mut cache_reader = CacheReader::from_reader(&tar_bytes[..], is_compressed)?;
+            let mut cache_reader = CacheReader::from_reader(tar_bytes, is_compressed)?;
             let output_dir = tempdir()?;
             let output_dir_path = output_dir.path().to_string_lossy();
             let anchor = AbsoluteSystemPath::new(&output_dir_path)?;

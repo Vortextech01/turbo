@@ -18,6 +18,7 @@ use turbopack_css::{CssInputTransform, CssModuleAssetType};
 use turbopack_ecmascript::{EcmascriptInputTransform, EcmascriptOptions, SpecifiedModuleType};
 use turbopack_mdx::MdxTransformOptions;
 use turbopack_node::transforms::{postcss::PostCssTransform, webpack::WebpackLoaders};
+use turbopack_wasm::source::WebAssemblySourceType;
 
 use crate::evaluate_context::node_evaluate_asset_context;
 
@@ -57,7 +58,7 @@ impl ModuleOptions {
     #[turbo_tasks::function]
     pub async fn new(
         path: Vc<FileSystemPath>,
-        context: Vc<ModuleOptionsContext>,
+        module_options_context: Vc<ModuleOptionsContext>,
     ) -> Result<Vc<ModuleOptions>> {
         let ModuleOptionsContext {
             enable_jsx,
@@ -76,7 +77,7 @@ impl ModuleOptions {
             execution_context,
             ref rules,
             ..
-        } = *context.await?;
+        } = *module_options_context.await?;
         if !rules.is_empty() {
             let path_value = path.await?;
 
@@ -340,12 +341,20 @@ impl ModuleOptions {
                 vec![ModuleRuleEffect::ModuleType(ModuleType::Static)],
             ),
             ModuleRule::new(
-                ModuleRuleCondition::any(vec![
-                    ModuleRuleCondition::ResourcePathEndsWith(".wasm".to_string()),
-                    // TODO(WEB-1316): add support for `wat` files
-                    // ModuleRuleCondition::ResourcePathEndsWith(".wat".to_string()),
-                ]),
-                vec![ModuleRuleEffect::ModuleType(ModuleType::WebAssembly)],
+                ModuleRuleCondition::any(vec![ModuleRuleCondition::ResourcePathEndsWith(
+                    ".wasm".to_string(),
+                )]),
+                vec![ModuleRuleEffect::ModuleType(ModuleType::WebAssembly {
+                    source_ty: WebAssemblySourceType::Binary,
+                })],
+            ),
+            ModuleRule::new(
+                ModuleRuleCondition::any(vec![ModuleRuleCondition::ResourcePathEndsWith(
+                    ".wat".to_string(),
+                )]),
+                vec![ModuleRuleEffect::ModuleType(ModuleType::WebAssembly {
+                    source_ty: WebAssemblySourceType::Text,
+                })],
             ),
             ModuleRule::new(
                 ModuleRuleCondition::ResourcePathHasNoExtension,
