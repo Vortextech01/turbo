@@ -8,7 +8,7 @@
 
 .lines {
   --right: #0A60FF; /* Portal Blue: A vibrant, medium blue */
-  --left: #353535; /* Aperture Grey: A medium-dark grey */
+  --left: #FF6A00; /* Aperture Grey: A medium-dark grey */
   position: absolute;
   width: 200vw;
   margin-left: -50%;
