@@ -38,7 +38,7 @@ export function PackDropdown({
                 }`
               }
             >
-              1000
+              1000 Recuerdos
             </Listbox.Option>
             <Listbox.Option
               className={({ active }) =>
@@ -48,7 +48,7 @@ export function PackDropdown({
               }
               value="5000"
             >
-              5000
+              5000 Recuerdos
             </Listbox.Option>
             <Listbox.Option
               className={({ active }) =>
@@ -58,7 +58,7 @@ export function PackDropdown({
               }
               value="10000"
             >
-              10000
+              10000 Recuerdos
             </Listbox.Option>
             <Listbox.Option
               className={({ active }) =>
@@ -68,7 +68,7 @@ export function PackDropdown({
               }
               value="30000"
             >
-              30000
+              30000 Recuerdos
             </Listbox.Option>
           </Listbox.Options>
         </Transition>
